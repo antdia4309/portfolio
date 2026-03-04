@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# Antonio Diaz - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my professional portfolio! This is a modern, responsive web application showcasing my journey from business analysis to software development.
 
-## Available Scripts
+**Live Site:** [https://antdia4309.github.io/portfolio/](https://antdia4309.github.io/portfolio/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## About Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I'm a recent Computer Science graduate (B.S., 4.0 GPA, Summa Cum Laude) with 9+ years of professional experience in business operations and analysis. My unique background combines proven business acumen with a strong technical foundation, making me well-equipped to solve real-world problems through software development.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Key Strengths:**
+- Full-stack development (MEAN stack, React, JavaScript, C#)
+- System debugging and technical problem-solving
+- Data validation and SQL expertise
+- Testing mindset and quality assurance
+- Cross-functional collaboration
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+**Frontend:**
+- React
+- Tailwind CSS
+- Lucide React Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Deployment:**
+- GitHub Pages
+- GitHub Actions (CI/CD)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+✨ **Professional Design**
+- Modern, sleek interface with dark/light mode toggle
+- Fully responsive design (mobile, tablet, desktop)
+- Smooth animations and transitions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📱 **Key Sections**
+- Hero section with profile introduction
+- Quick navigation cards for easy browsing
+- Featured projects showcase
+- Education and skills display
+- Professional experience with expandable details
+- Contact information and social links
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🎯 **User Experience**
+- Fast load times
+- Intuitive navigation
+- Optimized for entry-level developer job search
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Projects Featured
 
-## Learn More
+1. **ParkFinder Web App** - Responsive front-end application with advanced CSS and interactive elements
+2. **Census CRUD Application** - Full-stack MEAN stack project with real-time API communication
+3. **To-Do List Application** - JavaScript fundamentals and DOM manipulation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
 
-### Code Splitting
+### Prerequisites
+- Node.js (v14 or higher)
+- npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/antdia4309/portfolio.git
+cd portfolio
 
-### Analyzing the Bundle Size
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Start the development server
+npm start
+```
 
-### Making a Progressive Web App
+The app will open at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Build for Production
+```bash
+npm run build
+```
 
-### Advanced Configuration
+This creates an optimized production build in the `build/` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This portfolio is automatically deployed to GitHub Pages using GitHub Actions. Any push to the `main` branch triggers a build and deployment.
 
-### `npm run build` fails to minify
+**Current Deployment:** [https://antdia4309.github.io/portfolio/](https://antdia4309.github.io/portfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Contact
+
+I'm excited to start my career as a software developer! Let's connect:
+
+- **Email:** [a.c.diaz92@gmail.com](mailto:a.c.diaz92@gmail.com)
+- **LinkedIn:** [linkedin.com/in/antonio-d-91201b158](https://www.linkedin.com/in/antonio-d-91201b158)
+- **GitHub:** [github.com/antdia4309](https://github.com/antdia4309)
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
+
+---
+
+```
+
+---
+
+**To add this to your repository:**
+
+1. Create a new file called `README.md` in the root of your repository
+2. Copy and paste the content above
+3. Commit and push:
+```
+   git add README.md
+   git commit -m "Add README"
+   git push
