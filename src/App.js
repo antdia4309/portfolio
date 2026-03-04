@@ -393,10 +393,10 @@ export default function Portfolio() {
               <Mail size={20} /> Email Me
             </a>
             <a href="https://www.linkedin.com/in/antonio-d-91201b158" className={`flex items-center gap-2 px-6 py-3 border ${theme === 'dark' ? 'border-slate-400 hover:border-blue-400' : 'border-slate-400 hover:border-blue-500'} rounded-lg font-semibold transition-all duration-200`}>
-              <Linkedin size={20} /> LinkedIn
+              LinkedIn
             </a>
             <a href="https://github.com/antdia4309" className={`flex items-center gap-2 px-6 py-3 border ${theme === 'dark' ? 'border-slate-400 hover:border-blue-400' : 'border-slate-400 hover:border-blue-500'} rounded-lg font-semibold transition-all duration-200`}>
-              <Github size={20} /> GitHub
+              GitHub
             </a>
           </div>
         </div>
