@@ -78,7 +78,7 @@ export default function Portfolio() {
   ];
 
   const skills = [
-    { category: "Languages", items: ["JavaScript", "C#", "SQL", "C++", "HTML/CSS"] },
+    { category: "Languages", items: ["JavaScript", "Python", "C#", "SQL", "C++", "HTML/CSS"] },
     { category: "Frameworks & Libraries", items: ["React", "Node.js", "Express.js", "Angular"] },
     { category: "Databases & Tools", items: ["MongoDB", "MySQL", "SQL Server", "GitHub", "Visual Studio"] },
     { category: "Professional Skills", items: ["Agile/Kanban", "Testing & QA", "System Analysis", "Problem-Solving"] }
