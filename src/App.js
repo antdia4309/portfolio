@@ -472,7 +472,7 @@ export default function Portfolio() {
         <div className={`${dark ? 'bg-blue-500/15 border-blue-400/30' : 'bg-blue-50 border-blue-200'} border rounded-2xl p-12 text-center`}>
           <h2 className="text-4xl font-bold mb-6">Let's talk</h2>
           <p className={`${t.muted} text-lg mb-8 max-w-2xl mx-auto`}>
-            I'm open to senior business analyst, technical analyst, and data roles, especially in insurance and finance.
+            I'm open to senior business systems analyst, technical analyst, and data analyst roles, especially in insurance and finance.
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
             <a href={LINKS.email} className={`flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors ${focus}`}>
