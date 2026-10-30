@@ -255,7 +255,7 @@ export default function Portfolio() {
           <div>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">Antonio Diaz</h1>
             <p className={`text-2xl lg:text-3xl font-semibold mb-6 ${t.accent}`}>
-              Business Analyst for insurance systems and data
+              Business Analyst for Insurance Systems and Data
             </p>
             <p className={`text-lg lg:text-xl ${t.muted} mb-10 max-w-2xl`}>
               Ten years in P&C insurance, from billing operations to a Guidewire upgrade to commercial lines at Markel.
