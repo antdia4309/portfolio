@@ -68,12 +68,21 @@ const caseStudies = [
 
 const projects = [
   {
+    title: 'Project Kickoff',
+    description: 'A private planner for the earliest stage of a project. It walks you through seven steps, scores how ready your plan is, and exports it as a kickoff brief, CLAUDE.md, AGENTS.md, Cursor rule, Jira epic, or stakeholder summary. Everything runs in the browser, so nothing you type leaves your device.',
+    tags: ['React', 'Product design', 'Requirements', 'AI tooling', 'GitHub Actions'],
+    repo: 'https://github.com/antdia4309/project-kickoff',
+    live: 'https://antdia4309.github.io/project-kickoff',
+    image: `${process.env.PUBLIC_URL}/project-kickoff.png`,
+    featured: true,
+  },
+  {
     title: 'Billing Delinquency Analytics',
     description: 'An Oracle APEX app that analyzes billing delinquency and models forecast scenarios. Built from my years working insurance billing and collections.',
     tags: ['Oracle APEX', 'SQL', 'Data analysis'],
     repo: 'https://github.com/antdia4309/billing-delinquency-analytics',
-    live: '', // TODO: paste your public APEX app URL
-    image: '', // TODO: optional, e.g. `${process.env.PUBLIC_URL}/apex-screenshot.png`
+    live: 'https://oracleapex.com/ords/r/antdia4309_ecpi/billing-delinquency-analytics/home',
+    image: `${process.env.PUBLIC_URL}/billing-delinquency-analytics.png`,
     featured: true,
   },
   {
@@ -81,14 +90,9 @@ const projects = [
     description: 'A React app for finding parks by what you need them for: kids, dogs, or a good walk.',
     tags: ['React', 'JavaScript', 'CSS'],
     repo: 'https://github.com/antdia4309/park-finder',
-    live: '',
-  },
-  {
-    title: 'Census CRUD Application',
-    description: 'A full-stack MEAN app with an Angular front end, Express API, and MongoDB.',
-    tags: ['MongoDB', 'Express', 'Angular', 'Node.js'],
-    repo: '', // TODO: link the repo or remove this project
-    live: '',
+    live: 'https://antdia4309.github.io/park-finder/',
+    image: `${process.env.PUBLIC_URL}/parkfinder.png`,
+    featured: true,
   },
 ];
 
@@ -170,8 +174,8 @@ const skills = [
 ];
 
 const certifications = [
-  { name: 'Fundamentals of Deep Learning', issuer: 'NVIDIA - Oct 2025' }, // TODO: exact certification name
-  { name: 'Applications of AI for Predictive Maintenance', issuer: 'NVIDIA - Dec 2025' }, // TODO: exact certification name
+  { name: 'Fundamentals of Deep Learning', issuer: 'NVIDIA - Oct 2025' },
+  { name: 'Applications of AI for Predictive Maintenance', issuer: 'NVIDIA - Dec 2025' },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -221,7 +225,8 @@ export default function Portfolio() {
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? (dark ? 'bg-slate-950/95' : 'bg-white/95') + ' backdrop-blur shadow-lg' : 'bg-transparent'}`}>
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className={`text-2xl font-bold ${t.accent} ${focus} rounded`}>
+          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className={`flex items-center gap-3 text-2xl font-bold ${t.accent} ${focus} rounded`}>
+            <img src={`${process.env.PUBLIC_URL}/favicon.ico`} alt="" width="32" height="32" className="rounded-lg" />
             Antonio Diaz
           </button>
 
@@ -343,7 +348,7 @@ export default function Portfolio() {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((p, i) => (
             <article key={i} className={`${t.card} border rounded-xl overflow-hidden flex flex-col ${p.featured ? 'md:col-span-2' : ''}`}>
-              {p.image && <img src={p.image} alt={`${p.title} screenshot`} className="w-full h-56 object-cover object-top" />}
+              {p.image && <img src={p.image} alt={`${p.title} preview`} className={`w-full object-cover ${p.featured ? 'aspect-[2/1]' : 'h-56 object-top'}`} />}
               <div className="p-8 flex flex-col flex-1">
                 <h3 className="text-2xl font-bold mb-3">{p.title}</h3>
                 <p className={`${t.muted} mb-5 flex-1`}>{p.description}</p>
