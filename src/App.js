@@ -94,6 +94,14 @@ const projects = [
     image: `${process.env.PUBLIC_URL}/parkfinder.png`,
     featured: true,
   },
+  {
+    title: 'Premium Sync',
+    description: 'A .NET 10 policy-to-billing integration simulator. A mock policy system sends premium transactions to a mock billing system, and the project reproduces and fixes the failures real insurance integrations hit: duplicate billing, billing outages, and out-of-order transactions. Each fix has a written root cause analysis. 57 unit tests and CI on every push.',
+    tags: ['C#', '.NET', 'ASP.NET Core', 'EF Core', 'SQLite', 'xUnit', 'GitHub Actions'],
+    repo: 'https://github.com/antdia4309/premium-sync',
+    live: '',
+    featured: true,
+  },
 ];
 
 const experience = [
