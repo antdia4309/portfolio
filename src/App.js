@@ -68,6 +68,14 @@ const caseStudies = [
 
 const projects = [
   {
+    title: 'Premium Sync',
+    description: 'A .NET 10 policy-to-billing integration simulator. A mock policy system sends premium transactions to a mock billing system, and the project reproduces and fixes the failures real insurance integrations hit: duplicate billing, billing outages, and out-of-order transactions. Each fix has a written root cause analysis. 57 unit tests and CI on every push.',
+    tags: ['C#', '.NET', 'ASP.NET Core', 'EF Core', 'SQLite', 'xUnit', 'GitHub Actions'],
+    repo: 'https://github.com/antdia4309/premium-sync',
+    live: '',
+    featured: true,
+  },
+  {
     title: 'Project Kickoff',
     description: 'A private planner for the earliest stage of a project. It walks you through seven steps, scores how ready your plan is, and exports it as a kickoff brief, CLAUDE.md, AGENTS.md, Cursor rule, Jira epic, or stakeholder summary. Everything runs in the browser, so nothing you type leaves your device.',
     tags: ['React', 'Product design', 'Requirements', 'AI tooling', 'GitHub Actions'],
@@ -92,14 +100,6 @@ const projects = [
     repo: 'https://github.com/antdia4309/park-finder',
     live: 'https://antdia4309.github.io/park-finder/',
     image: `${process.env.PUBLIC_URL}/parkfinder.png`,
-    featured: true,
-  },
-  {
-    title: 'Premium Sync',
-    description: 'A .NET 10 policy-to-billing integration simulator. A mock policy system sends premium transactions to a mock billing system, and the project reproduces and fixes the failures real insurance integrations hit: duplicate billing, billing outages, and out-of-order transactions. Each fix has a written root cause analysis. 57 unit tests and CI on every push.',
-    tags: ['C#', '.NET', 'ASP.NET Core', 'EF Core', 'SQLite', 'xUnit', 'GitHub Actions'],
-    repo: 'https://github.com/antdia4309/premium-sync',
-    live: '',
     featured: true,
   },
 ];
