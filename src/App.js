@@ -10,7 +10,7 @@ const LINKS = {
   email: 'mailto:a.c.diaz92@gmail.com',
   linkedin: 'https://www.linkedin.com/in/antonio-d-91201b158',
   github: 'https://github.com/antdia4309',
-  resume: `${process.env.PUBLIC_URL}/Antonio_Diaz_Resume.pdf`, // TODO: drop your PDF in /public
+  resume: `${process.env.PUBLIC_URL}/Antonio_Diaz_Resume.pdf`,
   photo: 'https://i.imgur.com/LxKSnjR.jpg', // TODO: move to /public/profile.jpg and use `${process.env.PUBLIC_URL}/profile.jpg`
 };
 
@@ -30,7 +30,6 @@ const quickFacts = [
 ];
 
 // Anonymized case studies. No ticket, deal, or policy numbers.
-// TODO: confirm you're comfortable naming internal systems (e2, PRIMIS, GhostDraft).
 const caseStudies = [
   {
     title: 'Self-service bulk deal status utility',
