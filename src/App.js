@@ -103,8 +103,8 @@ const projects = [
   },
   {
     title: 'Park Finder',
-    description: 'A React app for finding parks by what you need them for: kids, dogs, or a good walk.',
-    tags: ['React', 'JavaScript', 'CSS'],
+    description: 'Find a Richmond-area park by what you want to do: playgrounds, dog parks, trails, water, accessible paths, picnics, or sports. Covers 329 parks with real boundaries on an interactive map, open-now hours, photos, favorites, and shareable links. A GitHub Action rebuilds the park data from OpenStreetMap every week, and every push is linted, tested (28 tests), and deployed. Scores 100 for accessibility on Lighthouse.',
+    tags: ['React', 'Vite', 'Leaflet', 'OpenStreetMap', 'Vitest', 'GitHub Actions'],
     repo: 'https://github.com/antdia4309/park-finder',
     live: 'https://antdia4309.github.io/park-finder/',
     image: `${process.env.PUBLIC_URL}/parkfinder.png`,
