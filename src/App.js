@@ -84,6 +84,15 @@ const projects = [
     featured: true,
   },
   {
+    title: 'What the CODE?',
+    description: 'A browser game that teaches programming to beginners. Players build a program from blocks or type real C#, then watch a bot run it with each line highlighted as it goes. 12 levels, step-by-step debugging, hints, badges, and a level editor that shares levels by link. 151 tests and CI on every push.',
+    tags: ['C#', 'Blazor WebAssembly', 'Product design', 'xUnit', 'GitHub Actions'],
+    repo: 'https://github.com/antdia4309/what-the-code',
+    live: 'https://antdia4309.github.io/what-the-code/',
+    image: `${process.env.PUBLIC_URL}/what-the-code.png`,
+    featured: true,
+  },
+  {
     title: 'Billing Delinquency Analytics',
     description: 'An Oracle APEX app that analyzes billing delinquency and models forecast scenarios. Built from my years working insurance billing and collections.',
     tags: ['Oracle APEX', 'SQL', 'Data analysis'],
