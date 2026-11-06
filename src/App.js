@@ -44,7 +44,7 @@ const caseStudies = [
     company: 'Markel',
     problem: 'Premiums, transactions, fees, and commissions drifted out of sync between policy admin (e2), billing (BillingCenter), and finance (PRIMIS), especially on multi-period policies and mid-term endorsements.',
     action: 'Traced transactions across systems with SQL, isolated where values diverged, coordinated targeted data fixes, and wrote requirements for code fixes that stop the drift at the source.',
-    result: 'Root causes documented and fixes moved through dev and QA into scheduled releases.', // TODO: add a number if you have one
+    result: 'Root causes documented and fixes moved through dev and QA into scheduled releases. I later rebuilt this problem as a public project, Premium Sync (see Projects below).',
     tags: ['SQL', 'Root cause analysis', 'Data fixes'],
   },
   {
@@ -68,10 +68,11 @@ const caseStudies = [
 const projects = [
   {
     title: 'Premium Sync',
-    description: 'A .NET 10 policy-to-billing integration simulator. A mock policy system sends premium transactions to a mock billing system, and the project reproduces and fixes the failures real insurance integrations hit: duplicate billing, billing outages, and out-of-order transactions. Each fix has a written root cause analysis. 57 unit tests and CI on every push.',
-    tags: ['C#', '.NET', 'ASP.NET Core', 'EF Core', 'SQLite', 'xUnit', 'GitHub Actions'],
+    description: 'A .NET policy-to-billing integration built to fail the way real insurance integrations do: duplicate billing, outages, out-of-order transactions, rounding drift, and bad data at the edges. I reproduced, fixed, and wrote a root cause analysis for each one, then built a SQL reconciliation service and React dashboard that explain every mismatch between the two systems. 105 tests and CI on every push.',
+    tags: ['C#', '.NET', 'EF Core', 'SQL', 'React', 'xUnit', 'GitHub Actions'],
     repo: 'https://github.com/antdia4309/premium-sync',
     live: '',
+    image: `${process.env.PUBLIC_URL}/premium-sync.png`,
     featured: true,
   },
   {
