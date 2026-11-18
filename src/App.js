@@ -96,7 +96,7 @@ const projects = [
   {
     title: 'Billing Delinquency Analytics',
     description: 'An Oracle APEX app that analyzes billing delinquency and models forecast scenarios. Built from my years working insurance billing and collections.',
-    tags: ['Oracle APEX', 'SQL', 'Data analysis'],
+    tags: ['Oracle APEX', 'Oracle SQL', 'PL/SQL', 'Data analysis'],
     repo: 'https://github.com/antdia4309/billing-delinquency-analytics',
     live: 'https://oracleapex.com/ords/r/antdia4309_ecpi/billing-delinquency-analytics/home',
     image: `${process.env.PUBLIC_URL}/billing-delinquency-analytics.png`,
